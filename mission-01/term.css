@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Pretendard;
+}
+
+.definition {
+  background-color: #ccc;
+  width: 250px;
+  border: #a3a3a3 1px solid;
+  border-radius: 5px;
+  margin: 16px 16px;
+  padding: 16px ;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.definition-01 {
+  display: flow-root;
+  margin-top: 16px;
+}
+
+.definition-02 {
+  display: flow-root;
+  margin-top: 12px;
+}
+
+.definition-title-01 {
+  font-size: 14px;
+  width: 142px;
+  float: right;
+  color: #296897;
+  font-weight: 700;
+}
+
+.definition-content-01 {
+  color: #181818;
+  font-size: 14px;
+  width: 142px;
+  float: right;
+  font-weight: 400;
+}
+
+.definition-img-01 {
+  display: block;
+  text-align: left;
+}
+
+.definition-title-02 {
+  font-size: 14px;
+  width: 142px;
+  float: left;
+  color: #296897;
+  font-weight: 700;
+}
+
+.definition-content-02 {
+  color: #181818;
+  font-size: 14px;
+  width: 142px;
+  float: left;
+  font-weight: 400;
+}
+
+.definition-img-02 {
+  display: block;
+  text-align: right;
+}
