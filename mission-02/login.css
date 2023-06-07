@@ -1,0 +1,141 @@
+:root {
+  --darkorange: #ed552f;
+  --lightorange: #e8852e;
+  --lightgrey: #ccc;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: pretendard;
+  font-weight: 400;
+}
+
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.form-background {
+  margin: 50px 50px;
+  width: 260px;
+  height: 161px;
+  background: #aaa;
+  border-radius: 5px;
+}
+
+.login-form {
+  width: 260px;
+  height: 161px;
+  background: linear-gradient(90deg, var(--darkorange) 0%, var(--lightorange) 100%);
+  border-radius: 5px;
+  position: relative;
+  bottom: 6px;
+  right: 6px;
+
+}
+
+.login-heading {
+  padding: 12px 12px;
+  color: #ff0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+fieldset {
+  border: 0;
+}
+
+.login-background {
+  margin: auto;
+  width: 236px;
+  height: 106px;
+  background: var(--white);
+  border-radius: 5px;
+}
+
+.login-email,
+.login-password {
+  padding: 8px 8px 2px 8px;
+}
+
+.login-email-label,
+.login-password-label {
+  padding-left: 8px;
+  padding-right: 7px;
+  width: 49px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  float: left;
+}
+
+.login-email-input,
+.login-password-input {
+  padding-left: 8px;
+  width: 90px;
+  height: 24px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid var(--lightgrey);
+  border-radius: 5px;
+}
+
+.login-button {
+  margin-right: 4px;
+  width: 50px;
+  height: 53px;
+  background-color: var(--darkorange);
+  color: var(--white);
+  border-radius: 5px;
+  border: 0;
+  position: absolute;
+  top: 51px;
+  ;
+  right: 20px;
+}
+
+.line {
+  margin: 8px auto;
+  width: 209px;
+  height: 1px;
+  background-color: var(--lightgrey);
+}
+
+.line li {
+  list-style: none;
+}
+
+.sign-up::before,
+.id-password-find::before {
+  content: "> ";
+  color: var(--darkorange);
+  font-weight: 800;
+}
+
+.sign-up,
+.id-password-find {
+  padding: 8px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #181818;
+}
+
+.sign-up {
+  padding-left: 0;
+  display: inline;
+  float: left;
+}
+
+.id-password-find {
+  padding-right: 0;
+  display: inline;
+  float: right;
+}
