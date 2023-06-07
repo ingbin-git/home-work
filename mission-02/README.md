@@ -1,7 +1,7 @@
 # 웹카페 로그인 Form 구현
 
 ## 페이지 구현 결과
-<img src="./README)webcafe-login.jpg" />
+http://127.0.0.1:5500/mission-02/login.html
 
 ## HTML 작성사항
 - 자세한 meta 요소 명시로 SEO 고려
