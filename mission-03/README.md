@@ -1,8 +1,11 @@
 # transition을 활용한 관련 사이트 구현
 
 ## 페이지 구현 결과
-![result](./README_result/READM-01)%20transition-%EC%A0%84.png)
+  ![transition 효과 전](image-1.png)
+  ![trnasition 효과 진행](image.png)
+  ![키보드로 제어](image-2.png)
 
+  구현 결과에 대한 영상 파일 첨부('transition 구현 결과.mov')
 
 ## HTML 작성사항
 - <head>
