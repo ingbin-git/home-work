@@ -56,6 +56,7 @@
   padding: 4px 0;
 }
 
+/* transition */
 .site-list:hover {
   height: 152px;
   transition: all 3s ease-out 0.3s;
@@ -67,6 +68,7 @@
   transition: all 1s ease 2.3s;
 }
 
+/* 가상클래스를 활용한 시각적 효과 */
 .site-link:hover,
 .site-link:focus {
   color: var(--darkorange);
