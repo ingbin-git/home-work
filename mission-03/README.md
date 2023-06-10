@@ -1,13 +1,7 @@
 # transition을 활용한 관련 사이트 구현
 
 ## 페이지 구현 결과
-  ![transition 효과 전](image-1.png)
-  transition 효과 전 기본값
-  ![trnasition 효과 진행](image.png)
-  transition 효과 구현 장면
-  ![키보드로 제어](image-2.png)
-  키보드를 이용한 제어 장면
-
+![trnasition 효과 진행](image.png)
 
   파일 목록 중 'transition 구현 결과.mov'는 구현 결과에 대한 영상 파일입니다.
 
