@@ -85,10 +85,9 @@
 ```
 .news-plus {
   grid-area: 1 / 9 / 2 / 10;
-  text-align: right;
   text-decoration: none;
   width: 57px;
-  padding-bottom: 12px;
+  padding: 0 0 12px 40px;
 }
 ```
 - 더보기에 마우스를 올리거나 키보드로 포커스를 주었을 때 글자색이 변하도록 하여 해당 위치에 있음을 알 수 있도록 함
