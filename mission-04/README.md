@@ -2,7 +2,7 @@
 
 ## 페이지 구현 결과
 - 전체 이미지
-  <img src="./images/news.png" width="300" height="200"/>
+  <img src="./images/news.png" width="900" height="600"/>
 - viewport를 작게 조절했을 때
   ![grid를 활용한 페이지의 viewport를 작게 조절한 이미지](image.png){: width="100" height="100"}
 - grid overlays 적용
