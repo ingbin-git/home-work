@@ -3,8 +3,6 @@
 ## 페이지 구현 결과
 - 전체 이미지
   <img src="./images/news.png" />
-- viewport를 작게 조절했을 때
-  <img src="./images/news-viewport.png" width="570px" />
 - grid overlays 적용
   <img src="./images/news-grid.png" />
 
@@ -45,7 +43,7 @@
 </body> 
 ```
 - 웹카페라는 대제목 아래 '새소식'이라는 중제목을 &lt;h2&gt;로 마크업
-  ``` <h2 class="news">새소식</h2> ```
+    ``` <h2 class="news">새소식</h2> ```
 - 새소식 중 W3C 사이트 리뉴얼에 대한 내용이므로 중제목과의 연관성이 있으면서 하위 레벨에 해당하므로 &lt;h3&gt;으로 마크업
   ``` <h3 class="news-title">W3C 사이트가 리뉴얼되었습니다.</h3> ```
 - 소제목에 대한 내용(설명)이므로 &lt;p&gt;를 활용하여 내용을 단락으로 묶음
