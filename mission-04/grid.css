@@ -73,10 +73,9 @@
 
 .news-plus {
   grid-area: 1 / 9 / 2 / 10;
-  text-align: right;
   text-decoration: none;
   width: 57px;
-  padding-bottom: 12px;
+  padding: 0 0 12px 40px;
 }
 
 .news-plus:hover, .news-plus:focus {
