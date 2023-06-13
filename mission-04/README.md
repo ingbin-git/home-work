@@ -4,7 +4,7 @@
 - 전체 이미지
   <img src="./images/news.png" />
 - viewport를 작게 조절했을 때
-  <img src="./images/news-viewport.png" />
+  <img src="./images/news-viewport.png" width="570" />
 - grid overlays 적용
   <img src="./images/news-grid.png" />
 
