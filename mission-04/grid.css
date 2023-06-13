@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+
+/* CSS 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-weight: 400;
+  color: #181818;
+  line-height: 1.5;
+}
+
+/* 공통 요소 */
+.news-title,
+.news-text,
+.news-date {
+  padding-left: 12px;
+}
+
+.news,
+.news-title {
+  font-weight: 700;
+}
+
+/* 개별 요소 */
+.container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 12px;
+}
+
+.news {
+  grid-area: 1 / 5 / 2 / 9;
+  color: #ed552f;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #A9A9A9, #FFF);
+  border-image-slice: 1;
+}
+
+.news-title {
+  grid-area: 2 / 6 / 3 / 10;
+  padding-top: 12px;
+}
+
+.news-text {
+  grid-area: 4 / 6 / 5 / 10;
+  text-align: justify;
+}
+
+.news-thumbnail {
+  grid-area: 2 / 5 / 5 / 6;
+}
+
+.news-img {
+  box-shadow: 0px 15px 15px 5px #AAA;
+  margin: 12px 0 16px 0;
+  width: 130px;
+}
+
+.news-caption {
+  width: 130px;
+  text-align: center;
+}
+
+.news-date {
+  grid-area: 3 / 6 / 4 / 9;
+  margin-top: -8px;
+  width: 80px;
+}
+
+.news-plus {
+  grid-area: 1 / 9 / 2 / 10;
+  text-align: right;
+  text-decoration: none;
+  width: 57px;
+  padding-bottom: 12px;
+}
+
+.news-plus:hover, .news-plus:focus {
+  color: #AAA;
+}
+
+.news-icon {
+  color: #447231;
+  font-weight: 700;
+}
