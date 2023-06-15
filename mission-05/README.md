@@ -27,7 +27,7 @@
 - 순위에 대한 내용이므로 &lt;ol&gt;을 활용하여 리스트로 표현
 - 사이트에 바로 접속할 수 있도록 &lt;a&gt;를 활용하여 사이트 리스트를 마크업
 - 접근성 측면에서 단순히 '숫자 사이트명'보다는 'n위 사이트명'으로 스크린 리더가 읽을 수 있도록 'aria-label' 속성을 활용
-- 4개 사이트는 접속 시 새창으로 열도록 target="_blank" 속성을 활용하였으며 보안 측면에서 rel="noopener noreferrer" 속성을 추가함
+- 4개 사이트는 접속 시 새 창으로 열도록 target="_blank" 속성을 활용하였으며 보안 측면에서 rel="noopener noreferrer" 속성을 추가함
 - 더보기의 경우 다른 사이트로의 이동이 아니므로 target="_blank" 속성을 활용하여 새 창으로 여는 것은 4개 사이트 접속과 동일하나, 보안에 대한 속성인 rel="noopener noreferrer"은 부여하지 않음
 - 링크에 'title' 속성을 추가하여 마우스를 올렸을 때 tooltip을 확인할 수 있도록 함
 - 더보기 앞 '+' 기호에 스타일을 적용하기 위해 의미없는 &lt;span&gt; 태그를 추가함
@@ -151,10 +151,6 @@
 - flex를 활용하여 링크와 순위변동을 배치함
 - space-between을 활용하여 링크와 sprite를 왼쪽과 오른쪽에 각각 배치하였으며 align-items를 활용하여 높이를 중앙에 위치하도록 함   
 ```
-.ranking-list {
-  display: flex;
-}
-
 .ranking-link {
   display: flex;
   flex-flow: row nowrap;
